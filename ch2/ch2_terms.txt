@@ -1,0 +1,64 @@
+# Terms
+
+//
+• This double-slash syntax is a "line comment" used to tell the compiler to ignore the rest of the line (i.e. until an end-of-line character). In source code, this lets us annotate our code with "comments" without affecting the program itself.
+
+<<
+• This is an output operator or "put function", which takes the stuff on the right of it and puts it in the thing on the left. For example `cout << "French toast is a wonderful thing indeed."` would take the declaration of love for french toast and "put it into" the standard output stream.
+
+C++
+• C++ is a programming language; a well-defined set of syntax and rules to define the logic of a program in a human-readable way.
+
+comment
+• A comment is an annotation used in source code to explain or highlight an aspect of the code for future reference. Typically either the // (line comment) or /**/ (block comment) syntax is used for comments.
+
+compiler
+• A tool used to validate and translate source code into object code that can be executed by a computer.
+
+compiler-time error
+• An error that is raised by the compiler during the compiling process. Typically this means that the source code does not comply with the language standards.
+
+cout
+• An abbreviation for the "standard output stream", which can be used to output content back to the user of a program.
+
+declaration
+• Introducing a new name in the program. The type this new name must also be explicity stated (e.g. "int"). The "scope" of this name is dependent on *where* it is introduced. 
+
+executable
+• Source code of a complete program that has been compiled into object code and linked.
+
+function
+• A sequence of statements that can be called and that might return a value. Every function has a return type (such as "int"), a name, a parameter list and a body.
+
+header
+• A collection of declarations to be included in more than one source file.
+
+IDE
+• An integrated development environment, a type of tool used by many programmers to help them build software.
+
+#include
+• This statment tells the compiler to pull code from one source file into another. Often used to connect .cpp files with .h files.
+
+library
+• A predefined collection of functions that are generic enough to have applications outside of a specific program. They can be included in source code with the #include statement, and offer functionality including I/O, string manipulation and algorithm implementations.
+
+linker
+• The linker is responsible for pulling together code from separately-compiled source files into a single program or part of a program.
+
+main()
+• The main() function is the entry point for a C++ program. When a compiled C++ program is executed, the main() function is called first, and when it returns, the program exits. A C++ project without a main() function will not compile successfully.
+
+object code
+• Machine-readable code that has been compiled from source code.
+
+output
+• Stuff that comes out of a program, e.g. characters to the terminal.
+
+program
+• A collection of compiled and linked source files that are complete enough to be made into an executable.
+
+source code
+• Human-readable code that contains all of the logic for a program. Written in a programming language.
+
+statement
+• the basic unit of a function that controls execution flow, such as a conditional (if/else/while etc) or declaration.

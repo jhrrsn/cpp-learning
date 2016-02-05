@@ -1,0 +1,34 @@
+# Questions
+
+1. What is the purpose of the "Hello, World!" program?
+> This program prints the characters "Hello, World!" to the terminal.
+
+2. Name the four parts of a function.
+> The type, the name, the arguments and the body.
+
+3. Name a function that must appear in every C++ program.
+> main()
+
+4. In the "Hello, World!" program, what is the purpose of the line return 0;?
+> The main() funtion is of type "int", so it needs to return a value. Here, we return 0 as this can be used in some environments to verify that the function has executed successfully.
+
+5. What is the purpose of the compiler?
+> The compiler takes our source code, less the comments, and turns it into machine or "object" code that can be run. It also runs tests to ensure that our source code is compliant with the given C++ standards.
+
+6. What is the purpose of the #include directive?
+> This directive allows us to include code from another file, typically a header file (.h).
+
+7. What does a .h suffix at the end of a file name signify in C++?
+> It signifies that the file is a header file, to be included in other source code files.
+
+8. What does the linker do for your program?
+> The linker takes our compiled source code and ensures that the references we make between files (e.g. between a .cpp file and a .h file) are resolved, and all relevant code is included in the final program.
+
+9. What is the difference between a source file and an object file?
+> A source file is written in a programming language (such as C++), and is generally human-readable. Object files contain compiled "machine code" that explicitly instructs a computer how to execute a program. It is not human-readable (by most people!).
+
+10. What is an IDE and what does it do for you?
+> An Integrated Development Environment is a software tool that aims to assist a programmer in creating programs. While functionality varies between IDEs, typically they will include syntax highlighting, realtime error detection and build assistance that handle compiling & linking of source code.
+
+11. If you understand everything in the textbook, why is it necessary to practice?
+> Because only by doing - prodding, playing and breaking programs - do we really understand how to apply the lessons from the textbook in the real-world. It's fun too!
